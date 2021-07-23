@@ -114,16 +114,13 @@ i{
 }
 
 
-.fa-whatsapp{
-    color: #fff;
+.fab{
+    font-size: 30px;
+    color: white;
 }
 
-.fa-facebook-square{
-   color: #fff;
-}
-.fa-instagram{
-    color: #fff;
-}
+
+
 
 .card-img-top{
     height: 305px;
@@ -140,3 +137,13 @@ img.circular {
     border:1px black dashed;
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.8);
 }
+
+
+.img-circle {
+    border-radius: 50%;
+}
+.img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;}
+
