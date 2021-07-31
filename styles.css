@@ -50,16 +50,14 @@ li{
 li:hover{
     background-color: rgb(224, 82, 136);
     border-radius: 4px;
+    transition: .3s;
 }
 
 p{
     color: rgb(2, 65, 98);
 }
 
-#boton-header:hover{
-    background-color: rgb(144, 144, 144);
-    border-radius: 4px;
-}
+
 
 a{
     font-size: 25px;
@@ -120,18 +118,17 @@ i{
     height: 305px;
 }
 
-img.circular {
-    border-radius: 50%;
-}
-
-img.circular {
-    border-radius: 50%;
-    border:1px black dashed;
-    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.8);
-}
-
 #boton-productos{
     background-color: rgb(2, 65, 98);
     border-color: rgb(224, 82, 136)
+}
+
+#btn-editado{
+    background-color: white;
+    transition: .5s;
+}
+
+#btn-editado:hover{
+    background-color: rgb(224, 82, 136);
 }
 
