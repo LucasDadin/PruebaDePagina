@@ -42,6 +42,7 @@ nav{
 h1{
     color: rgb(2, 65, 98);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 900px;
 }
 
 h4{
@@ -195,7 +196,7 @@ footer{
 
 /*INICIO DE LAS CARD*/
 
-.container__card{
+.containerdecard{
     max-width: 1200px;
     padding: 20px;
     padding-bottom: 40px;
@@ -206,7 +207,7 @@ footer{
     justify-content: center
 }
 
-.card{
+.cardservicios{
     width: 300px;
     position: relative;
     margin: 20px;
@@ -215,17 +216,17 @@ footer{
     border-radius: 20px;
 }
 
-.card:hover{
+.cardservicios:hover{
     box-shadow: 1px 1px 20px -10px #20202049;
 }
 
-.card:hover .info__description{
+.cardservicios:hover .info__description{
     margin-top: 0;
     border-radius: 0px 0px 20px 20px;
 
 }
 
-.card:hover .icon{
+.cardservicios:hover .icon{
     margin-top: -110px;
     border-radius: 20px 20px 0px 0px;
 }
