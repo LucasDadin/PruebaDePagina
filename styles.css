@@ -7,7 +7,9 @@
 
 .navbar{
   border-bottom: solid rgb(224, 82, 136) ; 
-  padding: 1rem;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 0rem;
   
 }
 
@@ -19,10 +21,12 @@ nav{
 
 .navbar-nav {
     float: left;
-    margin: 0rem;
-    padding-top: 0rem;
+    margin: 0px;
+    padding: 0px;
     left: 40%;
     position: relative;
+   
+
 }
 
 .main-header{
@@ -42,7 +46,7 @@ nav{
 h1{
     color: rgb(2, 65, 98);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 900px;
+    font-size: 5rem;
 }
 
 h4{
