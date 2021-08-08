@@ -119,6 +119,13 @@ a{
     background-color: rgb(224, 82, 136);
 }
 
+.contactanos{
+    color: rgb(2, 65, 98);
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
 
 /*FOOOTER*/
 
@@ -340,5 +347,4 @@ footer{
 }
 
 /*FIN DE LAS CARD*/
-
 
