@@ -373,3 +373,8 @@ footer{
 .container-redes a:hover img{
     background: rgba(0,0,0,0.10);
 }
+
+
+.googlemaps{
+    width: 100%;
+}
