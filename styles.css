@@ -5,6 +5,7 @@
     box-sizing: border-box;
   }
 
+
 .navbar{
   border-bottom: solid rgb(224, 82, 136) ; 
   margin: 0px;
@@ -85,6 +86,22 @@ a{
     margin-bottom: 40px;
 
 }
+
+.preguntasfrecuentes{
+    color: rgb(2, 65, 98);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-top: solid rgb(224, 82, 136);
+
+}
+
+#preguntasfrecuentes{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+
 
 .consulta{
     color: rgb(2, 65, 98);
@@ -171,14 +188,20 @@ footer{
     font-weight: 600;
 }
 
-.box__footer a:hover{
+.redesfooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redesfooter a:hover{
     opacity: 0.8;
 }
 
-.box__footer a .fab{
+.redesfooter a .fab{
     font-size: 55px;
     color: #7a7a7a;
-    
+    margin-left: 20px;
 }
 
 .box__copyright{
@@ -302,50 +325,6 @@ footer{
     box-shadow: 1px 1px 30px -5px #20202070;
 }
 
-
-/*COLOR DE LAS CARD*/
-
-.c1:hover .icon{
-    background: #DD4B25;
-}
-
-.c1 .icon i{
-    color: #DD4B25;
-}
-
-.c1:hover .icon i{
-    color: #fff;
-}
-
-
-.c2:hover .icon{
-    background: #146EB0;
-}
-
-.c2 .icon i{
-    color: #146EB0;
-}
-
-.c2:hover .icon i{
-    color: #fff;
-}
-
-
-.c3:hover .icon{
-    background: #E8B600;
-}
-
-.c3 .icon i{
-    color: #E8B600;
-}
-
-.c3:hover .icon i{
-    color: #fff;
-}
-
-/*FIN DE LAS CARD*/
-
-
 /*Iconos de las redes sociales*/
 
 .container-redes{
@@ -378,3 +357,4 @@ footer{
 .googlemaps{
     width: 100%;
 }
+
