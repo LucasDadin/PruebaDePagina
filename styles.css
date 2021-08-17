@@ -1,7 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-size: 20px;
+    font-size: 18px;
     box-sizing: border-box;
   }
 
@@ -24,9 +24,9 @@ nav{
     padding: 0px;
     left: 40%;
     position: relative;
-   
-
 }
+
+
 
 .main-header{
     border-bottom: solid rgb(224, 82, 136) ;   
