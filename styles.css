@@ -1,8 +1,11 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-size: 18px;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    
   }
 
 
